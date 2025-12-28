@@ -1,0 +1,71 @@
+# FVM Version Cache
+.fvm/
+
+# StrategicGameApp - Derlenmiş çıktılar
+StrategicGameApp/
+
+# C++ Build Artifacts
+backend/build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Flutter/Dart specific (Ana dizin için)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Diğer
+*.swp
+*~
+.project
+.classpath
+.settings/
